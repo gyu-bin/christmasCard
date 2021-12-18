@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="christmas-card">
+        <input id="open" type="checkbox">
+        <label class="open" for="open"></label>
+        <div class="card-front">
+            <div class="christmas-tree"></div>
+            <div class="ribbon"></div>
+            <div class="text">Click to Open</div>
+            <div class="star"></div>
+            <div class="balls"></div>
+        </div>
+        <div class="card-inside">
+            <div class="title">Merry<br>Christmas!!</div>
+            <div class="wishes">
+                Have a merry Christmas.<br>
+                <br>
+                Best wishes for Christmas
+            </div>
+            <div class="gift">
+                <div class="bow"></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src='https://unpkg.com/magic-snowflakes/dist/snowflakes.min.js'></script>
+<script>
+    const sf = new Snowflakes({
+        color: "#ffffff", // 색상
+        count: 75, // 갯수
+        minOpacity: 0.7, // 최소 투명도 0: 투명 | 1: 불투명
+        maxOpacity: 0.6 // 최대 투명도
+    });
+</script>
+</html>
