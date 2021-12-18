@@ -57,7 +57,7 @@ input#open{
     position: absolute;
     content: "";
     width: 100px;
-    height: 25px;
+    height: 30px;
     background-color: #c47f1a;
     left: -50px;
     top: 140px;
@@ -119,7 +119,7 @@ input#open{
     position: absolute;
     color: white;
     font-family: 'Rochester', cursive;
-    top: 260px;
+    top: 263px;
     width: 200px;
     text-align: center;
     left: 45px;
@@ -276,7 +276,7 @@ input#open{
     font-family: 'Rochester', cursive;
     line-height: 25px;
     text-align: center;
-    top: 45px;
+    top: 50px;
     width: 200px;
     left: 50px;
 }
@@ -299,7 +299,7 @@ input#open{
     width: 30px;
     height: 30px;
     left: 130px;
-    top: 324px;
+    top: 300px;
 }
 
 .gift:before, .gift:after{
@@ -312,12 +312,14 @@ input#open{
     width: 30px;
     height: 3px;
     top: 14px;
+    background-color: green;
 }
 
 .gift:after{
     height: 30px;
     width: 3px;
     left: 14px;
+    background-color: green;
 }
 
 .bow{
@@ -337,9 +339,11 @@ input#open{
 .bow:before{
     transform: skew(20deg, 10deg);
     left: 2px;
+    background-color: green;
 }
 
 .bow:after{
     transform: skew(-20deg, -10deg);
     left: 15px;
+    background-color: green;
 }
