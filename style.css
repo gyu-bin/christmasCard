@@ -2,10 +2,10 @@
 
 body{
     display: flex;
-    height: 100vh;
+    height: 95vh;
     justify-content: center;
     align-items: center;
-    background-color: green;
+    background-color: rgb(51,77,16);
 }
 
 input#open{
@@ -50,14 +50,14 @@ input#open{
     border-right: 50px solid transparent;
     border-left: 50px solid transparent;
     border-bottom: 160px solid #034247;
-    top: 75px;
+    top: 78px;
     left: 95px;
 }
 .christmas-tree:after{
     position: absolute;
     content: "";
     width: 100px;
-    height: 30px;
+    height: 35px;
     background-color: #c47f1a;
     left: -50px;
     top: 140px;
@@ -133,7 +133,7 @@ input#open{
     color: #333;
     text-align: center;
     line-height: 10px;
-    top: -42.5px;
+    top: -38.5px;
     left: 61px;
 }
 
@@ -272,7 +272,7 @@ input#open{
 .title{
     position: absolute;
     color: #333;
-    font-size: 40px;
+    font-size: 50px;
     font-family: 'Rochester', cursive;
     line-height: 25px;
     text-align: center;
