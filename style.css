@@ -356,3 +356,18 @@ input#open{
     left: 45px;
     font-size: 40px;
 }
+.fa-arrow-left{
+    position: absolute;
+    top: 650px;
+    right: 350px;
+}
+
+.fa-arrow-right{
+    position: absolute;
+    top: 650px;
+    right: 50px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
