@@ -358,14 +358,14 @@ input#open{
 }
 .fa-arrow-left{
     position: absolute;
-    top: 650px;
-    right: 350px;
+    top: 550px;
+    right: 323px;
 }
 
 .fa-arrow-right{
     position: absolute;
-    top: 650px;
-    right: 50px;
+    top: 550px;
+    right: 37px;
 }
 a{
     color: white;
