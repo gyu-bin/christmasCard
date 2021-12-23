@@ -358,15 +358,15 @@ input#open{
 }
 .fa-arrow-left{
     position: absolute;
-    top: 550px;
-    right: 323px;
+    top: 450px;
+    right: 217px;
     font-size: 30px;
 }
 
 .fa-arrow-right{
     position: absolute;
-    top: 550px;
-    right: 37px;
+    top: 450px;
+    right: -42px;
     font-size: 30px;
 }
 a{
