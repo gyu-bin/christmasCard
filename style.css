@@ -360,12 +360,14 @@ input#open{
     position: absolute;
     top: 550px;
     right: 323px;
+    font-size: 30px;
 }
 
 .fa-arrow-right{
     position: absolute;
     top: 550px;
     right: 37px;
+    font-size: 30px;
 }
 a{
     color: white;
